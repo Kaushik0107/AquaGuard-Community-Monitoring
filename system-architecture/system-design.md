@@ -118,6 +118,8 @@ AquaGuard follows a Three-Tier Layered Architecture:
 * Application Layer – Node.js + Express
 
 * Data Layer – MongoDB
+* 
+  ![System Architecture diagram](./system-architecture/System-Architecture.jpeg)
 
 
 ## 3.Alternatives Considered
