@@ -256,6 +256,110 @@ API categories:
 
 * Notification APIs
 
+## 7. Security Design
+
+Security is integrated at multiple layers.
+
+* Authentication & Authorization
+
+* JWT-based authentication
+
+* Password hashing using bcrypt
+
+* Role-based access enforcement
+
+* Protected middleware
+
+* Input Validation
+
+* Server-side validation for all forms
+
+* File type and size restrictions
+
+* Sanitization to prevent injection attacks
+
+* Content Integrity
+
+Moderation layer prevents:
+
+* False reportingFalse reporting
+
+* Malicious uploads
+
+* Public misinformation
+
+* Transport Security
+
+* HTTPS enforcement
+
+* Secure cloud configuration
+
+## 8. Scalability & Performance Strategy
+
+Expected Load:
+
+* Up to 5,000 monthly active users
+
+* 100+ reports per day
+
+Scaling Approach:
+
+* Stateless backend
+
+* MongoDB indexing
+
+* Horizontal scaling capability
+
+* CDN for frontend assets
+
+## 9. Assumptions & Constraints
+
+Assumptions:
+
+* Users manually submit data
+
+* Authority responses are simulated
+
+* Stable internet access
+
+Constraints:
+
+* Academic internship timeline
+
+* Limited cloud hosting resources
+
+* No real-world authority integration
+
+## 10. Risk Analysis & Mitigation
+
+Risk	Mitigation
+
+Spam reports	Moderation layer + rate limiting
+
+Duplicate reposts	Basic similarity detection
+
+File abuse	File validation & size limit
+
+Moderator overload	Status filtering & queue management
+
+Data corruption	Schema validation
+
+Downtime	Cloud-based deployment
+
+## 11. Future Enhancements
+
+ML-based anomaly detection
+
+User credibility scoring
+
+Real-time notifications via WebSockets
+
+Microservice migration
+
+IoT sensor integration
+
+Mobile application
+
 All protected routes require JWT validation.
 
 
