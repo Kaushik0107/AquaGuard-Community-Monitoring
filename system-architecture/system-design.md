@@ -146,47 +146,36 @@ Rigid schema structure
 
 Requires migration management for evolving report types
 
-Chosen instead: MongoDB
+* Chosen instead: MongoDB
+  
 Reason:
 
-Flexible document model
+* Flexible document model
 
-Native support for nested contaminant arrays
+* Native support for nested contaminant arrays
 
-Built-in geospatial indexing
+* Built-in geospatial indexing
 
-Faster iteration for variable report fields
+* Faster iteration for variable report fields
 
-### 3. Real Authority Integration
-
-Rejected because:
-
-Requires legal and API access
-
-Out of internship scope
-
-Chosen instead: Simulated authority role
-Reason:
-
-Demonstrates workflow feasibility without external dependency
 
 ### 4. Module Design
 
 System is divided into the following logical modules:
 
-Authentication Module
+* Dashboard & Heatmap Module
 
-Report Management Module
+* Forum Module
 
-Moderation Module
+* Report Management Module
 
-Dashboard & Heatmap Module
+* Moderator Module
+  
+* Authentication Module
 
-Forum Module
+* File Handling Module
 
-Notification Module
-
-File Handling Module
+* * Notification Module
 
 Each module operates independently but communicates via defined API contracts.
 
@@ -210,24 +199,20 @@ Each module operates independently but communicates via defined API contracts.
 
 Geospatial index is applied on:
 
-latitude
+* latitude
 
-longitude
+* longitude
 
 Status field is indexed for:
 
-Fast moderation filtering
+* Fast moderation filtering
 
-Efficient dashboard queries
+* Efficient dashboard queries
 
-ER Diagram Placement
 
 The Entity-Relationship Diagram (ERD) is provided below:
 
-![AquaGuard ER Diagram](./images/er-diagram.png)
-
-Placement Recommendation:
-Insert the ER diagram immediately after this Database Design section.
+![AquaGuard ER Diagram](./system-architecture/er-diagram.png)
 
 The ERD illustrates:
 
@@ -243,31 +228,31 @@ User → Notifications (1:N)
 
 The ER diagram serves as the structural blueprint of the system’s data layer.
 
-6. API Design
+## 6. API Design
 
 The system exposes RESTful APIs.
 
-Design Principles
+* Design Principles
 
-Stateless communication
+* Stateless communication
 
-JSON request/response
+* JSON request/response
 
-Standard HTTP status codes
+* Standard HTTP status codes
 
-Role-based middleware enforcement
+* Role-based middleware enforcement
 
 API categories:
 
-Authentication APIs
+* Authentication APIs
 
-Report APIs
+* Report APIs
 
-Moderation APIs
+* Moderation APIs
 
-Forum APIs
+* Forum APIs
 
-Notification APIs
+* Notification APIs
 
 All protected routes require JWT validation.
 
