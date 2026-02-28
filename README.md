@@ -17,7 +17,7 @@ https://www.figma.com/make/k2Uv3xD8ukBZZVzoK5YBqx/Aqua-Guard--Copy---Copy-?fulls
 
 ## System Architecture
 
-![System Architecture](https://1drv.ms/i/c/a70b0b1410d5e23f/IQCvIGpTjXnMRbiPqCEWRr2PAWVw2XO4cp342iXmWg59Py4?e=vh5q1d)
+![System Architecture](https://github.com/Kaushik0107/AquaGuard-Community-Monitoring/blob/e444f61a70f6f5b307630a78cc88a54712804dbd/system-architecture/System%20Architecture.jpeg)
 
 ## Architecture Type:
 
