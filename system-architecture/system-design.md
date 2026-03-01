@@ -118,8 +118,8 @@ AquaGuard follows a Three-Tier Layered Architecture:
 * Application Layer – Node.js + Express
 
 * Data Layer – MongoDB
-* 
-  ![System Architecture diagram](./system-architecture/System-Architecture.jpeg)
+  
+  
 
 
 ## 3.Alternatives Considered
@@ -211,10 +211,6 @@ Status field is indexed for:
 
 * Efficient dashboard queries
 
-
-The Entity-Relationship Diagram (ERD) is provided below:
-
-![AquaGuard ER Diagram](./system-architecture/er-diagram.png)
 
 The ERD illustrates:
 
