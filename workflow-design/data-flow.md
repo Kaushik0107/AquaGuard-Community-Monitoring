@@ -31,3 +31,45 @@ The **AquaGuard System** is the central platform that connects three main entiti
 
 
 
+
+
+This diagram represents the **Level 1 (Detailed) Data Flow Diagram** of the **AquaGuard System**, showing how a water issue report moves through different phases.
+
+### 1️⃣ Submission Phase
+
+* **Community Users** submit water-related complaints.
+* The report is stored in the **Central Database** with a **“Pending”** status.
+* The system waits for moderator review.
+
+### 2️⃣ Moderation Phase
+
+* A **Moderator** logs in through authentication and enters a secure PIN.
+* The moderator reviews the complaint in the **Report Validation** step.
+* If needed, **Technical Support** assists with authentication issues.
+* The moderator then either **approves** or **rejects** the report.
+
+### 3️⃣ Approval Branch (If Approved)
+
+* The system updates the status to **Validated**.
+* The **Heat Map** is updated to reflect the reported issue.
+* The issue becomes visible on the **Public Interface** for community awareness.
+
+### 4️⃣ Notification Branch (If Approved)
+
+* The **Notification Service** sends alerts to the relevant **Authorities**.
+* Authorities take action based on the validated complaint.
+
+### 5️⃣ Rejection Case
+
+* If rejected, the report is not forwarded and may be returned or closed.
+
+### Overall Flow:
+
+User submits report → Stored in database → Moderator validates →
+If approved → Public update + Authorities notified → Action taken.
+
+In simple terms, this diagram shows the step-by-step internal workflow of how AquaGuard processes, verifies, publishes, and escalates water issue reports.
+
+
+
+
