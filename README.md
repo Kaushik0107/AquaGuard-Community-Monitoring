@@ -1,5 +1,7 @@
 # AquaGuard-Community-Monitoring
-Community-driven water quality monitoring system with issue reporting and heatmap visualization.
+AquaGuard is a community-driven water issue reporting and monitoring system. It enables citizens to report water-related problems through SMS, phone, or email. The system allows moderators to validate reports and forward verified issues to the Water Authority for resolution.
+
+Users can track report status and view issue heat maps, while authorities receive alerts and provide resolution updates. The platform ensures transparency, faster response time, and better coordination between the community and water management authorities.
 
 ## Features
 - Water quality reporting
