@@ -34,3 +34,9 @@ The Level 0 DFD illustrates the overall interaction between external entities an
 
 This diagram represents the high-level data flow and core functionality of the AquaGuard Community Monitoring System.
 
+Level 1 – Detailed Data Flow Diagram (DFD)
+
+The Level 1 DFD provides a detailed breakdown of the AquaGuard system workflow. It illustrates the Submission Phase, where community users submit reports that are stored in the central database with a pending status. In the Moderation Phase, moderators authenticate, validate reports, and decide whether to approve or reject them.
+
+Approved reports move to the Approval Branch, where the system updates the status, refreshes the heat map, and displays the information on the public interface. Simultaneously, the Notification Branch sends alerts to the concerned authorities. This diagram represents the internal processing and decision flow of the system in detail.
+
